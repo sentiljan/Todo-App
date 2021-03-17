@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #ab90ff14;
+}
+.container{
+    width: 1250px;
+    margin: auto;
+    padding: 0;
+    
+}
+.title{
+    font-size: 7em;
+    color: #f77070;
+    text-align: center;
+}
+
+main{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+main input{
+    height: 2.5em;
+    width: 450px;
+    font-size: 2em;
+    border: none;
+    box-shadow: 5px 5px 25px -5px #00000015;
+    padding: 0 20px;
+    color: gray;
+    font-weight: 600;
+    outline: none;
+}
+
+main input::placeholder{
+    color: rgba(0, 0, 0, 0.247);
+}
+main .p-Cont{
+    max-width: 450px;
+    text-align: center;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+main p{
+    margin: 0;
+    text-align: right;
+    color: rgb(207, 201, 201);
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+main .todoss {
+    margin: auto;
+    width: 450px;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.todoss li{
+    background-color:white !important;
+    text-align: left;
+    padding: 1.2em;
+    border-bottom:solid 2px #f77070;
+}
+
+.active{
+    text-decoration: line-through;
+    color: rgb(197, 189, 189);
+    line-height: 1em;
+}
+
+.todoss button{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #f77070;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 0 10px -1px #f7707040;
+    cursor: pointer;
+    text-decoration:none  !important;
+}
+
+.todoss button:hover{
+    color: #000;
+    box-shadow: none;
+}
+
+.todoss li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clearAll{
+    padding: 7px 15px;
+    background-color: #fff;
+    color: #f77070;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 0 10px -1px #f7707040;
+    cursor: pointer;
+    text-decoration:none  !important;
+    outline: none;
+}
+
+.clearAll:hover{
+    color: #000;
+    box-shadow: none;
+}
